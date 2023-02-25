@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+    <title>Juego del ahorcado</title>
+</head>
+<body>
+    <div><img class="logo" src="logo.png" alt=""></div>
+    <div class="hombre-ahorcado">
+        <img id="person" alt="hombre-ahorcado"></div>
+    <div id="adiv" class="adivinado"></div>
+    <div id="errad" class="errado"></div>
+    <form class="botones" id="bot1" action="javascript:void(0)">
+        <input type="button" class="btn-blue" value="Nuevo juego" onclick="newGame()">
+        <input type="button" id ='guion' value= "Desistir" onclick ="abandonar()">
+    </form>
+    <form class="botones2" id="bot2" action="javascript:void(0)">
+        <input type="button" class="btn-blue2" value="Iniciar juego" onclick="newGame()">
+        <input type="button" class="btn-2" value= "Agregar nueva palabra" onclick="redireccionar()">
+    </form>
+    <form class="botones3" id="bot3" action="javascript:void(0)">
+        <textarea name="" id="nuevaPalabra" cols="17" rows="5" placeholder="Ingrese una palabra"></textarea>
+        <p class="parrafo"><img src="icon.gif" style="width: 1rem;" alt=""> Máx. de 8 letras</p>
+        <input type="button" class="btn-blue3" value="Guardar y empezar" onclick="validarPalabra()">
+        <input type="button" class="btn-non3" value= "Cancelar" onclick="inicio()">
+    </form>
+
+<script src="script.js"></script>
+</body>
+</html>

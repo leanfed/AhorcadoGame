@@ -1,0 +1,659 @@
+body {
+    background: #f3f5fc;
+    margin: 0px;
+    position: absolute;
+}
+
+ *{
+    margin: 0px;
+    padding: 0px;
+} 
+
+html {
+ font-size: 16px;
+}
+
+.logo{
+width: 1.94rem;
+height: 3rem;
+position: absolute;
+left: 5.67%;
+right: 0;
+top: 4%;
+bottom: 0%;
+}
+
+#person {
+    max-width: 100%;
+    max-height: 100%;;
+    display: none;
+}
+
+
+.hombre-ahorcado {
+    width: 100vw;
+    height: 16.75rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: show;
+}
+
+.errado{
+    text-align: center;
+    margin-top: 8rem;
+    color: #242d34;
+    margin-left: 1rem;
+}
+
+.botones{
+    text-align: center;
+    margin-top: 3rem;
+    display: none;
+}
+
+.adivinado{
+    text-align: center;
+    color: #002462;
+    font-size: 1.8rem;
+}
+
+.letter {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.guessed {
+    
+    width: 4.5rem;
+    height: 4.5rem;
+    border-bottom: solid 1px #002462;
+    margin-left: 0.4rem;
+    line-height: 4.5rem;
+    
+}
+
+
+.wrong{
+    margin-left: 1rem;
+}
+
+[type="button"]{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border:solid 1px #0a3871;
+    color: #0a3871;
+    cursor: pointer;
+    background: inherit;
+}
+
+.btn-blue {
+    background-color: #0a3871;
+    color: #ffff;
+    border-color: #000;
+}
+
+.botones2{
+position: absolute;
+display: block;
+text-align: center;
+top: 15.625rem;
+right: 33rem;
+display: show;
+}
+
+.btn-blue2 {
+    width: 19.8rem;
+    height: 7.12rem;
+    background-color: #0a3871;
+    color: #ffff;
+    border-color: #000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    
+
+}
+
+.btn-2 {
+    width: 17.5rem;
+    height: 4.18rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    align-items: center;
+    color: #0A3871;
+     margin-top: 1.5rem;
+}
+
+.botones3{
+    display: none;
+    text-align: center;
+}
+
+.btn-blue3 {
+    background-color: #0a3871;
+    color: #ffff;
+    border-color: #000;
+    margin-bottom: 20px;
+    margin-right: 1rem;
+}
+
+#nuevaPalabra{
+    font-family: 'Inter';
+    font-style: normal;
+    display: block;
+    background: #f3f5fc;
+    text-align: center;
+    margin-left: 31.5%;
+    margin-top: -20%;
+    margin-bottom: 15%;
+    font-size: 15px;
+    color: #0A3871;
+   border-style: none;
+   font-size: 25px;
+}
+
+.parrafo{
+    font-family: 'Inter';
+    font-style: normal;
+    margin-right:30%;
+    font-size: 12px;
+    color: #0A3871;
+    margin-bottom: 0.2rem;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        Width:768px;
+        Height:1024px;
+        background: #f3f5fc;
+        margin: 0px;
+        position: absolute;
+    }
+    
+   *{
+        margin: 0px;
+        padding: 0px;
+    } 
+    
+    html {
+     font-size: 16px;
+    }
+    
+    .logo{
+    width: 1.94rem;
+    height: 3rem;
+    position: absolute;
+    left: 5.67%;
+    right: 0;
+    top: 4%;
+    bottom: 0%;
+    
+    }
+    
+    #person {
+        width: 300px;
+        height: 400px;
+        max-width: 200%;
+        max-height: 200%;;
+        display: show;
+    }
+    
+    
+    .hombre-ahorcado {
+
+        text-align: center;
+        margin-top: 10rem;
+        margin-bottom: 0rem;
+        display: show;
+    }
+    
+    .errado{
+        text-align: center;
+        margin-top: 8rem;
+        color: #242d34;
+        margin-left: 1rem;
+        margin-top: 56%;
+        display: inline-flex;
+        font-size: 1.8rem;
+    }
+    
+    .adivinado{
+        position: absolute;
+        text-align: center;
+        color: #002462;
+        font-size: 1.8rem;
+        margin-top: 30%;
+        left: 20%;
+        right: 20%;
+        
+    }
+    
+    .botones{
+        text-align: center;
+        display: none;
+        margin-top: 23rem;
+        
+        
+    }
+    
+   
+    
+    .letter {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .guessed {
+        
+        width: 4.5rem;
+        height: 4.5rem;
+        border-bottom: solid 1px #002462;
+        margin-left: 0.4rem;
+        line-height: 4.5rem;
+        
+    }
+    
+    
+    .wrong{
+        margin-left: 1rem;
+    }
+    
+    [type="button"]{
+        width: 15rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        border:solid 1px #0a3871;
+        color: #0a3871;
+        cursor: pointer;
+        background: inherit;
+    }
+    
+
+    .btn-blue {
+        background-color: #0a3871;
+        color: #ffff;
+        border-color: #000;
+        margin-right: 7PX;
+        width: 22rem;
+        height: 4rem;
+    }
+
+    #guion{
+        width: 22rem;
+        height: 4rem;
+    }
+    
+    .botones2{
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 15.625rem;
+    right: 33rem;
+    display: show;
+    }
+    
+    .btn-blue2 {
+        width: 19.8rem;
+        height: 7.12rem;
+        background-color: #0a3871;
+        color: #ffff;
+        border-color: #000;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        display: block;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        border-radius: 24px;
+        
+    
+    }
+    
+    .btn-2 {
+        width: 17.5rem;
+        height: 4.18rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        align-items: center;
+        color: #0A3871;
+        margin-top: 1.5rem;
+        margin-left: 100%;
+    }
+    
+    .botones3{
+        display: none;
+        text-align: center;
+    }
+    
+    .btn-blue3 {
+        background-color: #0a3871;
+        color: #ffff;
+        border-color: #000;
+        margin-bottom: 20px;
+        margin-right: 1rem;
+        width: 320px;
+        height: 60px;
+        font-size: 16px;
+    }
+    
+    #nuevaPalabra{
+        font-family: 'Inter';
+        font-style: normal;
+        display: flex;
+        background: #f3f5fc;
+        margin-left:5.5%;
+        margin-top: 30%;
+        margin-bottom: 24%;
+        font-size: 40px;
+        color: #0A3871;
+        text-align: start;
+        border-style: none;
+    
+    }
+    
+    .parrafo{
+        font-family: 'Inter';
+        font-style: normal;
+        margin-right:65%;
+        font-size: 12px;
+        color: #0A3871;
+        margin-bottom: 0.2rem;
+        font-size: 22px;
+    }
+
+    form#bot1.botones{
+        left: 14rem;
+        margin-top: 8%;
+    }
+
+form#bot2.botones2{
+    left: 14rem;
+    margin-top: 10rem;
+}
+
+form#bot3.botones3{
+    position: relative;
+    left: 0.4rem;
+    margin-top: -25rem;
+    
+}
+
+.btn-non3{
+    width: 320px;
+    height: 60px;
+    font-size: 16px;
+}
+
+    
+}
+
+
+
+
+@media (max-width: 375px) {
+
+    body {
+        Width:375px;
+        Height:667px;
+        background: #f3f5fc;
+        margin: 0px;
+        position: absolute;
+    }
+    
+   *{
+        margin: 0px;
+        padding: 0px;
+    } 
+    
+    html {
+     font-size: 16px;
+    }
+    
+    .logo{
+    width: 1.94rem;
+    height: 3rem;
+    position: absolute;
+    left: 5.67%;
+    right: 0;
+    top: 4%;
+    bottom: 0%;
+    
+    }
+    
+    #person {
+        width: 250px;
+        height: 400px;
+        max-width: 200%;
+        max-height: 200%;;
+        display: show;
+        margin-top: -30%;
+    }
+    
+    
+    .hombre-ahorcado {
+
+        text-align: center;
+        margin-top: 10rem;
+        margin-bottom: 0rem;
+        display: show;
+    }
+    
+    .errado{
+        text-align: center;
+        color: #242d34;
+        margin-left: 1rem;
+        margin-top: 56%;
+        display: inline-flex;
+        font-size: 1.3rem;
+        margin-top: 11%;
+    }
+    
+    .adivinado{
+        position: absolute;
+        text-align: center;
+        color: #002462;
+        font-size: 1.8rem;
+        margin-top: -19%;
+        left: 20%;
+        right: 20%;
+        
+    }
+    
+    .botones{
+        text-align: center;
+        display: none;
+        margin-top: 23rem;
+        
+        
+    }
+    
+   
+    
+    .letter {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .guessed {
+        
+        width: 2.5rem;
+        height: 3.5rem;
+        border-bottom: solid 1px #002462;
+        margin-left: 0.3rem;
+        line-height: 2.5rem;
+        
+    }
+    
+    
+    .wrong{
+        margin-left: 1rem;
+    }
+    
+    [type="button"]{
+        width: 15rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        border:solid 1px #0a3871;
+        color: #0a3871;
+        cursor: pointer;
+        background: inherit;
+    }
+    
+
+    .btn-blue {
+        background-color: #0a3871;
+        color: #ffff;
+        border-color: #000;
+        margin-right: 2PX;
+        width: 22rem;
+        height: 4rem;
+        margin-bottom: 10px;
+    }
+
+    #guion{
+        width: 22rem;
+        height: 4rem;
+        margin-bottom: 10px;
+    }
+    
+    .botones2{
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 15.625rem;
+    right: 33rem;
+    display: show;
+    }
+    
+    .btn-blue2 {
+        width: 19.8rem;
+        height: 7.12rem;
+        background-color: #0a3871;
+        color: #ffff;
+        border-color: #000;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        display: block;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        border-radius: 24px;
+        margin-left: -12rem;
+     margin-top: -8rem;
+    }
+    
+    .btn-2 {
+        width: 17.5rem;
+        height: 4.18rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        align-items: center;
+        color: #0A3871;
+        margin-top: 1.5rem;
+        margin-left: 100%;
+        margin-left: -11rem;
+    }
+    
+    .botones3{
+        display: none;
+        text-align: center;
+    }
+    
+    .btn-blue3 {
+        background-color: #0a3871;
+        color: #ffff;
+        border-color: #000;
+        margin-bottom: 20px;
+        margin-right: 1rem;
+        width: 320px;
+        height: 60px;
+        font-size: 16px;
+    }
+    
+    #nuevaPalabra{
+        font-family: 'Inter';
+        font-style: normal;
+        display: flex;
+        background: #f3f5fc;
+        margin-left:5.5%;
+        margin-top: 30%;
+        margin-bottom: 24%;
+        font-size: 40px;
+        color: #0A3871;
+        text-align: start;
+        border-style: none;
+        height: 200px;
+        
+    }
+    
+    .parrafo{
+        font-family: 'Inter';
+        font-style: normal;
+        margin-right:56%;
+        font-size: 12px;
+        color: #0A3871;
+        margin-bottom: 0.2rem;
+        font-size: 17px;
+        display: inline-block;
+    }
+
+    form#bot1.botones{
+        left: 14rem;
+        margin-top: 8%;
+    }
+
+form#bot2.botones2{
+    left: 14rem;
+    margin-top: 10rem;
+}
+
+form#bot3.botones3{
+    position: relative;
+    left: 0.4rem;
+    margin-top: -25rem;
+    
+}
+
+.btn-non3{
+    width: 320px;
+    height: 60px;
+    font-size: 16px;
+    margin-left: -15px;
+}
+
+
+}
